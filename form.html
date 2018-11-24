@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="survey1.css">
+<h1 id = "title">Survey Form</h1>
+<div id = "form-outer">
+  <p id = "description">
+    Let us know how we can improve our site
+  </p>
+
+  <form id = "survey-form" method="GET"action="https://crossorigin.me/https://freecodecamp.com">
+    <div class = "row-tab">
+      <div class = "labels">
+        <label id = "label-name" for="name">*Name:</label>
+        <div>
+          <div class="righttab">
+            <input autofocus type="text" name:"name" id:"name" class="input-field" placeholder="Enter your name"required>
+          </div>
+        </div>
+        
+         <div class = "row-tab">
+      <div class = "labels">
+        <label id = "label-email" for="name">*Email:</label>
+        <div>
+          <div class="righttab">
+            <input type="email" name:"email" id:"email" class="input-field" placeholder="Enter your email"required>
+          </div>
+        </div>
+        
+            <div class = "row-tab">
+      <div class = "labels">
+        <label id = "label-age" for="age">*Age:</label>
+        <div>
+          <div class="righttab">
+            <input type="age" name:"age" id:"number" min="1" max:"100" class="input-field" placeholder="Age"required>
+          </div>
+        </div>
+        <!-- DROPDOWN -->
+          <div class = "row-tab">
+      <div class = "labels">
+        <label for = "currentpos">Which option best describes your current role:</label>
+        <div>
+          <div class="righttab">
+            <select id="dropdown" name="currentpos" class="dropdown">
+              <option disabled value>Select an option</option>
+              <option value="student">Student</option>
+              <option value="fulltimejob">Full Time Job</option>
+              <option value="parttimejob">Part Time Job</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        
+    <!--USER RATING -->
+    <div class="row-tab">
+      <div class="labels">
+        <label for="userRating">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+      </div>
+      <div class="righttab">
+        <ul style="list-style: none;">
+          <li class="radio"><label>Definitely<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+          <li class="radio"><label>Maybe<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+          <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>
+        </ul>
+      </div>
+           
+           <!--DROPDOWNLIST-->
+   <div class="row-tab">
+       <div class="labels">
+         <label for="most-like">What do you like most here</label>
+     </div>
+     <div class="righttab">
+       <select id="most-like" name="mostlike" class="dropdown">
+         <option disabled selected value>Select an option</option>
+         <option value="challenges">Challenges</option>
+         <option value="Community">Community</option>
+       </select>
+         </div>
+    </div>
+    <!-- CHECKBOX -->
+     <div class="row-tab">
+       <div class="labels">
+         <label for="preferences">Things should be improved in future<br>Check all that apply</label>
+       </div>
+       <div class="righttab">
+         <ul id="pereferences" style="list-style:none">
+            <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRating">Blog</li></label>
+            <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="userRating">Support</li></label>
+            <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRating">Interaction</li></label>
+            <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRating">Videos</li></label>
+            <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRating">Wiki</li></label>
+            <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRating">Course</li></label>
+        </ul>
+      <div>
+   </div>
+              
+ <!-- SUGGESTION BOX-->
+     <div class="row-tab">
+        <div class="labels">
+          <label for="suggestion">Any additional suggestion or comments?</label>
+       </div>
+       <div class="righttab">
+         <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here.."></textarea>
+       </div>
+          </div>
+              <button id="submit" type="submit">Submit</button>
+              </form>
+          <div>
+        
+       </html>
+               
+         
+         
+            
+             
+        
+  
+
+
+
+
+
