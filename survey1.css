@@ -30,6 +30,16 @@ header {
   padding-top: 20px;
 }
 
+#description {
+	width: 65%;   /* just an example, you can change the value */
+	margin: 20px auto;
+}
+
+#survey-form {
+	width: 65%;
+	margin: 0 auto;
+}
+
 .label {
 	display: inline-block;
 	text-align: right;
@@ -75,6 +85,7 @@ input[type="checkbox"] {
   border: 0px solid;
 
 }
+
 .dropdown{
 	height: 35px;
 	width: 140px;
@@ -85,6 +96,7 @@ input[type="checkbox"] {
 	border-radius: 2px;
 
 }
+
 .radio ,.checkbox{
 	position: relative;
 	display: block;
