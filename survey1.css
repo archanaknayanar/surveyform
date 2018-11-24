@@ -82,14 +82,6 @@ input[type="checkbox"] {
 	padding-bottom: 10px;
 }
 
-@media screen and (max-width: 833px) {
-  .input-field {
-    width: 80%;
-  }
-  select {
-    width: 90%;
-  }
-}
 
 
 
