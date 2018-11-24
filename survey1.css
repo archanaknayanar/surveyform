@@ -16,6 +16,11 @@ body {
 h1{
   width: 75%;
   max-width: 900px;
+  text-align: center;
+}
+p{
+  text-align: center;
+  color: white;
 }
 
 header {
@@ -119,8 +124,9 @@ input[type="checkbox"] {
   font-size: 1em;
   height: 40px;
   width: 96px;
-  margin: 20px;
+  margin-left: 410px;
   border: 0px solid;
+
 
 }
 
