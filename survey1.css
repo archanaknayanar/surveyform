@@ -3,31 +3,43 @@
 html,
 body {
   background-image: url(https://dl.richen.io/wallpapers/Forbidden%20Mountains.jpg);
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Raleway', Helvetica, sans-serif;
   min-width: 320px;
 }
+
+#title {
+	width: 75%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+h1{
+  width: 75%;
+  max-width: 900px;
+}
+
 header {
   font-size: 2em;
   font-weight: bold;
   margin: 20px;
 }
+<<<<<<< HEAD
 #form-outer{
   background-color: white;
   margin: 0 auto;
   border-radius: 4px;
-    width: 75%;
-   max-width: 900px;
-    padding: 10px;
-    padding-top: 20px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
 }
 .label{
   display: inline-block;
   text-align: right;
   width: 40%;
-    padding: 5px;
-    vertical-align: top;
-    margin-top: 10px;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
 }
 .righttab{
   display: inline-block;
@@ -39,9 +51,56 @@ header {
   height: 20px;
     width: 280px;
     padding: 5px;
-    margin: 10px;
+    /*margin: 10px;*/
     border: 1px solid #c0c0c0;
     border-radius: 2px;
+}
+/* #form-outer {
+	background-color: white;
+	margin: 0 auto;
+	border-radius: 4px;
+  width: 75%;
+ 	max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+} */
+
+#description {
+	width: 65%;   /* just an example, you can change the value */
+	margin: 20px auto;
+}
+
+#survey-form {
+	width: 65%;
+	margin: 0 auto;
+  border: 1px solid red;
+  background-color: white;
+}
+
+.label {
+	display: inline-block;
+	text-align: right;
+	width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.righttab {
+	display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+	height: 20px;
+  width: 280px;
+  padding: 5px;
+  /*margin: 10px;*/
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+>>>>>>> c38aeaf5e5a38810bc5b0195170313cff7aa5094
 }
 
 #number {
@@ -64,16 +123,18 @@ input[type="checkbox"] {
   border: 0px solid;
 
 }
+
 .dropdown{
   height: 35px;
   width: 140px;
   padding: 15px;
-  margin: 10px;
+  /*margin: 10px;*/
   margin-top: 15px;
   border: 1px solid #c0c0c0;
   border-radius: 2px;
 
 }
+
 .radio ,.checkbox{
   position: relative;
   display: block;
