@@ -3,45 +3,56 @@
 html,
 body {
   background-image: url(https://dl.richen.io/wallpapers/Forbidden%20Mountains.jpg);
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Raleway', Helvetica, sans-serif;
   min-width: 320px;
 }
+
+#title {
+	width: 75%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
 header {
   font-size: 2em;
   font-weight: bold;
   margin: 20px;
 }
-#form-outer{
+
+#form-outer {
 	background-color: white;
 	margin: 0 auto;
 	border-radius: 4px;
-  	width: 75%;
- 	 max-width: 900px;
-  	padding: 10px;
-  	padding-top: 20px;
+  width: 75%;
+ 	max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
 }
-.label{
+
+.label {
 	display: inline-block;
 	text-align: right;
 	width: 40%;
-  	padding: 5px;
-  	vertical-align: top;
-  	margin-top: 10px;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
 }
-.righttab{
+
+.righttab {
 	display: inline-block;
-  	text-align: left;
-  	width: 48%;
-  	vertical-align: middle;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
 }
-.input-field{
+
+.input-field {
 	height: 20px;
-  	width: 280px;
-  	padding: 5px;
-  	margin: 10px;
-  	border: 1px solid #c0c0c0;
-  	border-radius: 2px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
 }
 
 #number {
